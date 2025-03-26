@@ -46,7 +46,3 @@ async def predict(file: UploadFile = File(...)):
         "image_base64": img_str
     })
 
-# Run the app locally (optional)
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=10000)
